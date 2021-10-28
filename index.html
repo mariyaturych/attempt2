@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+    <head>
+       <title>Italy</title> 
+    </head>
+<style>
+    .main{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 90%;
+        gap: 15px;
+        margin: 25px auto;
+        
+    }
+    .main__img{
+       max-width: 100%;
+    }
+    .main__text{
+        text-align: justify;
+        line-height: 27px;
+    }
+    .main__text-box{
+        flex-basis: 50%;
+    }
+    .main__box-img{
+        flex-basis: 50%;
+    }
+    @media screen and (max-width: 750px){
+        .main{
+           background-color: rgb(80, 180, 180);
+           display: flex;
+           flex-wrap: wrap;
+           padding: 20px;
+        }
+        .main__text-box{
+        flex-basis: 100%;
+    }
+    .main__box-img{
+        flex-basis: 100%;
+    }
+    }
+</style>
+<body style="background-color:powderblue;">
+        <div class="main">
+            <div class="main__text-box">
+                <h1>Italy</h1>
+                <p class="main__text"><b>Italy</b>,country of south-central Europe, occupying a peninsula that juts deep into the Mediterranean Sea.
+                    Italy comprises some of the most varied and scenic landscapes on Earth and is often described as a country shaped like a boot.  
+                    At its broad top stand the Alps, which are among the world’s most rugged mountains.
+                     Italy’s highest points are along Monte Rosa, which peaks in Switzerland, and along Mont Blanc, which peaks in France. 
+                    The western Alps overlook a landscape of Alpine lakes and glacier-carved valleys that stretch down to the Po River and the Piedmont.
+                     Tuscany, to the south of the cisalpine region, is perhaps the country’s best-known region.
+                     From the central Alps, running down the length of the country, radiates the tall Apennine Range, which widens near Rome to cover nearly the entire width of the Italian peninsula.
+                     South of Rome the Apennines narrow and are flanked by two wide coastal plains, one facing the Tyrrhenian Sea and the other the Adriatic Sea.
+                     Much of the lower Apennine chain is near-wilderness, hosting a wide range of species rarely seen elsewhere in western Europe, such as wild boars, wolves, asps, and bears.
+                     The southern Apennines are also tectonically unstable, with several active volcanoes, including Vesuvius, which from time to time belches ash and steam into the air above Naples and its island-strewn bay.
+            </div>
+             <div class="main__box-img"><img src="https://www.iicom.org/wp-content/uploads/Italy.jpg" class="main__img" ></div>
+        </div>
+
+        <h2 >Famous place in Italy</h2>
+
+        <style>
+            * {
+                box-sizing: border-box;
+            }
+            
+            .column {
+                float: left;
+                width: 33.33%;
+                padding: 5px;
+            }
+            
+            .row::after {
+                content: "";
+                clear: both;
+                display: table;
+            }
+            </style>
+
+            <div class="row">
+              <div class="column">
+                <img src="https://www.planetware.com/photos-large/I/italy-best-places-to-visit-siena.jpg"  style="width:100%">
+                <p>Lorem, ipsum.</p>
+              </div>
+              <div class="column">
+                <img src="https://img.freepik.com/free-photo/detail-of-colosseum-in-rome-roma-italy-also-named-coliseum-this-is-the-most-famous-italian-sightseeing-spectacular-blue-sky-in-background_521059-2142.jpg?size=626&ext=jpg&ga=GA1.2.1594905316.1633046400"  style="width:100%">
+                <p>Lorem, ipsum.</p>
+            </div>
+              <div class="column">
+                <img src="https://www.planetware.com/wpimages/2020/06/italy-florence-to-san-gimignano-best-ways-to-get-there-by-tour.jpg" style="width:100%">
+                <p>Lorem, ipsum.</p>
+            </div>
+            </div>
+          
+       
+    </body> 
+
+    </html>
